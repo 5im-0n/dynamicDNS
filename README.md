@@ -14,7 +14,7 @@ Then just open a browser, go to
 http://yourhost.com:22023/register
 and your ip is set.
 
-The dns server listening on port 53 will resolve every query it receives to thet ip.
+The dns server listening on port 53 will resolve every query it receives to that ip.
 
 TODO
 ====
