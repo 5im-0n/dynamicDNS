@@ -62,11 +62,11 @@ server.on('query', function(query) {
 });
 
 server.on('clientError', function(error) {
-	log("there was a clientError: %s", error);
+	log("there was a clientError: " + error);
 });
 
 server.on('uncaughtException', function(error) {
-	log("there was an excepton: %s", error.message());
+	log("there was an excepton: " + error.message());
 });
 
 
